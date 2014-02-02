@@ -56,10 +56,10 @@
                                     @style = "border-color: #e5e5e5;"
                                 })) {
                                     @Html.ValidationSummary(true)
+                                    @Html.ValidationMessageFor(model => model.Email)
+                                    <i class="br1"></i>
                                     @Html.TextBoxFor(model => model.Email, new { @size = "40", @class = "root_table__top__b__form__input", @placeholder = "Эл. почта" })
                                     <input style="margin-left: 9px;" type="submit" class="green_button" value="Отправить" />
-                                    <i class="br1"></i>
-                                    @Html.ValidationMessageFor(model => model.Email)
                                 }
                                 <p style="background: #000; color: #fff;" id="elemThs">Спасибо за участие</p>
                             </div>
