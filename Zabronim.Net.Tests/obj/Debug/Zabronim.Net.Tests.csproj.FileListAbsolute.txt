@@ -39,3 +39,5 @@ E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\System.Web.We
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\obj\Debug\Zabronim.Net.Tests.csprojResolveAssemblyReference.cache
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\obj\Debug\Zabronim.Net.Tests.dll
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\obj\Debug\Zabronim.Net.Tests.pdb
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\EntityFramework.dll
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\EntityFramework.xml

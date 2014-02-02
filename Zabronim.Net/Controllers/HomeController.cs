@@ -7,8 +7,12 @@ using Zabronim.Net.Models;
 
 namespace Zabronim.Net.Controllers {
     public class HomeController : Controller {
-        //
-        // GET: /Home/
+        private readonly WClientContext dbWClient;
+
+        public HomeController() {
+            dbWClient = new WClientContext();
+        }
+
         public ActionResult Index() {
             return View();
         }
@@ -18,17 +22,23 @@ namespace Zabronim.Net.Controllers {
             if (client == null || ModelState.IsValid == false) {
                 return View("Index");
             }
-            
-            //db.Users.Add(user);
+            client.UserId = null;
+            dbWClient.WClients.Add(client);
 
             try {
-                //  db.SaveChanges();
+                dbWClient.SaveChanges();
             }
             catch (Exception e) {
                 ModelState.AddModelError("Email", e);
                 return View("Index");
             }
+
             return Redirect("Index");
+        }
+
+        public ActionResult IsEmail_Available(string email) {
+            var result = dbWClient.WClients.Any(c => c.Email == email) == false;
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
 
         public ActionResult G() {
