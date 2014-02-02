@@ -414,6 +414,10 @@ input[type="text"], input[type="password"], textarea {
     margin: 0 0 20px 0;
 }
 
+#elemThs {
+    display:none;
+}
+
 /* Styles for basic forms
 -----------------------------------------------------------*/
 fieldset {
