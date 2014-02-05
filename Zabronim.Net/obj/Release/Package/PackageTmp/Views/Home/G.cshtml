@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>show demo</title>
+    <style>
+        p {
+            background: yellow;
+        }
+    </style>
+     <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.8.24.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+</head>
+<body>
+    <button>Show it</button>
+    <p style="display: none">Hello 2</p>
+    <script>
+        $("button").click(function () {
+            $("p").show("slow");
+        });
+    </script>
+</body>
+</html>

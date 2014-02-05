@@ -1,0 +1,58 @@
+﻿@model Zabronim.Net.Models.WClient
+
+@{
+    ViewBag.Title = "Сервис бронирования Zabronim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<tr>
+    <td class="root_table__middle" valign="top" align="center" height="100%">
+        <div class="max_width">
+            <div class="root_table__middle__item">
+                <img src="/Content/Images/1.png" width="200" height="175" class="root_table__middle__item__img" />
+                <h1 class="root_table__middle__item__title">Бронируй столик в любом<br />
+                    ресторане или кафе своего города</h1>
+                С помощью нашего сервиса можно без труда забронировать любой доступный столик не вставая с дивана или из-за стола.
+   
+            </div>
+            <div class="root_table__middle__item" style="min-height: 230px;">
+                <img src="/Content/Images/2.png" width="235" height="209" class="root_table__middle__item__img" />
+                <h1 class="root_table__middle__item__title">Экономь время и оплачивай<br />
+                    меню заранее</h1>
+                Не любишь ждать пока принесут заказ или счёт? Заказывай блюда из меню и оплачивай их зарание банковской картой или электронными деньгами.
+   
+            </div>
+            <div class="root_table__middle__item">
+                <img src="/Content/Images/3.png" width="261" height="160" class="root_table__middle__item__img" style="top: 45px;" />
+                <h1 class="root_table__middle__item__title">Доставим еду из любого<br />
+                    ресторана на дом или в офис</h1>
+                Любишь вкусно поесть, но не хочется в жару или холод покидать уютный дом? Не беда. Доставим любые блюда из любого ресторана домой или в офис.
+   
+            </div>
+            <div class="root_table__middle__item" style="min-height: 250px;">
+                <img src="/Content/Images/4.png" width="261" height="237" class="root_table__middle__item__img" />
+                <h1 class="root_table__middle__item__title">Депозит постоянным клиентам</h1>
+                Один раз «закинь» денги на депозит и расплачивайся за любые услуги не утруждая себя постоянными переводами.
+   
+            </div>
+            <div align="center">
+                <i class="br40"></i>
+                <img src="/Content/Images/start.png" width="825" height="77" />
+                <i class="br3"></i>
+                <div style="font-size: 36px;">Будь в курсе</div>
+                <i class="br20"></i>
+                @using (Html.BeginForm("SumbitEmail", "Home", FormMethod.Post, new {
+                    @class = "root_table__top__b__form",
+                    @style = "border-color: #e5e5e5;"
+                })) {
+                    @Html.ValidationSummary(true)
+                    @Html.ValidationMessageFor(model => model.Email)
+                    <i class="br1"></i>
+                    @Html.TextBoxFor(model => model.Email, new { @size = "40", @class = "root_table__top__b__form__input", @placeholder = "Эл. почта" })
+                    <input style="margin-left: 9px;" type="submit" class="green_button" value="Отправить" />
+                }
+                <i class="br40"></i>
+            </div>
+        </div>
+    </td>
+</tr>
