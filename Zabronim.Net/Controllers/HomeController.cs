@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Mvc;
 using Zabronim.Net.Models;
 
@@ -22,6 +24,8 @@ namespace Zabronim.Net.Controllers {
             if (client == null || ModelState.IsValid == false) {
                 return View("Index");
             }
+            SendEmail("prosardar@ya.ru", "Команда Zabronim", "Спасибо за интерес, ваша почта добавлена в список рассылок новостей.");
+
             client.UserId = null;
             dbWClient.WClients.Add(client);
 
@@ -33,7 +37,24 @@ namespace Zabronim.Net.Controllers {
                 return View("Index");
             }
 
+
+
             return Redirect("Index");
+        }
+
+        private void SendEmail(string email, string subject, string body) {
+            try {
+                WebMail.SmtpServer = "smtp.yandex.ru";
+                WebMail.UserName = "info@zabronim.ru";
+                WebMail.Password = "mf%T@m!kPhco";
+                WebMail.From = "info@zabronim.ru";
+                WebMail.SmtpPort = 25;
+                WebMail.SmtpUseDefaultCredentials = true;
+                WebMail.Send(email, subject, body);
+            }
+            catch (Exception e) {
+
+            }
         }
 
         public ActionResult IsEmail_Available(string email) {
