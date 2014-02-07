@@ -414,8 +414,25 @@ input[type="text"], input[type="password"], textarea {
     margin: 0 0 20px 0;
 }
 
-#elemThs {
-    display:none;
+.elemThs {
+    display: none;
+}
+
+.footer_left {
+    float: left;
+    width: 410px;
+}
+
+.footer_right {
+    margin-top: 34px;
+    margin-right: 92px;
+    text-align: right;
+}
+
+.social-links {
+    margin: 2px;
+    text-decoration: none;
+    border: 0px;
 }
 
 /* Styles for basic forms

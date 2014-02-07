@@ -14,10 +14,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2014 17:25:26</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>02/02/2014 22:37:01</publishTime>
+      <publishTime>02/07/2014 16:26:09</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>02/02/2014 22:37:01</publishTime>
+      <publishTime>02/07/2014 16:26:09</publishTime>
     </File>
     <File Include="bin/Content/Images/1.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
@@ -29,6 +29,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
     <File Include="bin/Content/Images/4.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="bin/Content/Images/afterOrder.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="bin/Content/Images/deposit.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
     <File Include="bin/Content/Images/f.jpg">
@@ -44,6 +50,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
     <File Include="bin/Content/Images/phone.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="bin/Content/Images/reservedTable.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="bin/Content/Images/shipping.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
     <File Include="bin/Content/Images/start.png">
@@ -95,7 +107,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2014 17:25:26</publishTime>
     </File>
     <File Include="bin/Zabronim.Net.dll">
-      <publishTime>02/02/2014 22:20:50</publishTime>
+      <publishTime>02/07/2014 16:24:04</publishTime>
     </File>
     <File Include="Content/Fonts.css">
       <publishTime>02/01/2014 17:35:24</publishTime>
@@ -112,11 +124,29 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Images/4.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
+    <File Include="Content/Images/afterOrder.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="Content/Images/deposit.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
     <File Include="Content/Images/f.jpg">
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
     <File Include="Content/Images/h_bg.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="Content/Images/icon-facebook.png">
+      <publishTime>02/07/2014 14:28:35</publishTime>
+    </File>
+    <File Include="Content/Images/icon-linkedin.png">
+      <publishTime>02/07/2014 14:28:35</publishTime>
+    </File>
+    <File Include="Content/Images/icon-twitter.png">
+      <publishTime>02/07/2014 14:28:35</publishTime>
+    </File>
+    <File Include="Content/Images/icon-vk.png">
+      <publishTime>02/07/2014 14:28:35</publishTime>
     </File>
     <File Include="Content/Images/icon.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
@@ -127,11 +157,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Images/phone.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
+    <File Include="Content/Images/reservedTable.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
+    <File Include="Content/Images/shipping.png">
+      <publishTime>02/01/2014 17:32:49</publishTime>
+    </File>
     <File Include="Content/Images/start.png">
       <publishTime>02/01/2014 17:32:49</publishTime>
     </File>
     <File Include="Content/MainStyle.css">
-      <publishTime>02/02/2014 20:53:48</publishTime>
+      <publishTime>02/07/2014 15:33:56</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>02/01/2014 17:25:24</publishTime>
@@ -299,7 +335,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2014 17:25:27</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>02/02/2014 22:36:59</publishTime>
+      <publishTime>02/07/2014 16:26:08</publishTime>
     </File>
     <File Include="Scripts/jquery-1.8.2.js">
       <publishTime>02/01/2014 17:25:21</publishTime>
@@ -347,13 +383,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/02/2014 20:50:55</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/02/2014 19:11:14</publishTime>
+      <publishTime>02/07/2014 15:28:03</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/01/2014 17:25:16</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/02/2014 22:16:41</publishTime>
+      <publishTime>02/07/2014 16:21:06</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>02/01/2014 17:25:16</publishTime>
@@ -362,7 +398,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2014 17:25:16</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/02/2014 22:20:56</publishTime>
+      <publishTime>02/07/2014 16:24:13</publishTime>
     </File>
   </ItemGroup>
 </Project>

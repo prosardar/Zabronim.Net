@@ -22,7 +22,6 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
 </head>
 <body>
     @RenderSection("featured", required: false)
@@ -61,7 +60,7 @@
                                     @Html.TextBoxFor(model => model.Email, new { @size = "40", @class = "root_table__top__b__form__input", @placeholder = "Эл. почта" })
                                     <input style="margin-left: 9px;" type="submit" class="green_button" value="Отправить" />
                                 }
-                                <p style="background: #000; color: #fff;" id="elemThs">Спасибо за участие</p>
+                                <p style="background: #000; color: #fff;" class="elemThs">Спасибо за участие</p>
                             </div>
                         </div>
                     </div>
@@ -75,15 +74,27 @@
             <tr>
                 <td align="center" class="root_table__bottom">
                     <i class="br40"></i>
-                    <div class="max_width">
+                    <div class="footer_left">
                         © 2014 ООО «Заброним»<br />
                         Сервис по бронированию столиков<br />
                         Эл. почта: <a href="mailto:info@zabronim.ru">info@zabronim.ru</a><br />
                         <br />
                         Дизайн — Лекс Келлер
                     </div>
-                    <i class="br40"></i>
-                    <i class="br40"></i>
+                    <div class="footer_right">
+                        <a href="http://www.vk.com/zabronim" class="social-links">
+                            <img src="../../Content/Images/icon-vk.png" alt="iconVK" />
+                        </a>
+                        @*<a href="http://www.facebook.com/zabronim" class="social-links">
+                            <img src="../../Content/Images/icon-facebook.png" alt="iconFacebook" />
+                        </a>
+                        <a href="http://www.twitter.com/zabronim" class="social-links">
+                            <img src="../../Content/Images/icon-twitter.png" alt="iconTwitter" />
+                        </a>*@
+                        <a href="http://www.linkedin.com/company/zabronim" class="social-links">
+                            <img src="../../Content/Images/icon-linkedin.png" alt="iconlinkedin" />
+                        </a>
+                    </div>
                     <i class="br40"></i>
                 </td>
             </tr>
