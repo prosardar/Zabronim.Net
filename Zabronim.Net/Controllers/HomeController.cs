@@ -36,7 +36,7 @@ namespace Zabronim.Net.Controllers {
                 return View("Index");
             }
 
-            EmailManager.Send("prosardar@ya.ru", "Команда Zabronim", "Спасибо за интерес, ваша почта добавлена в список рассылок новостей.");
+            EmailManager.Send(client.Email, "Команда Zabronim", "Спасибо за интерес, ваша почта добавлена в список рассылок новостей.");
 
             return Redirect("Index");
         }
