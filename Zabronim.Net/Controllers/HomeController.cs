@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net.Mail;
-using System.Web;
-using System.Web.Helpers;
 using System.Web.Mvc;
 using Zabronim.Net.Models;
 
@@ -24,7 +20,7 @@ namespace Zabronim.Net.Controllers {
             if (client == null || ModelState.IsValid == false) {
                 return View("Index");
             }
-            
+
             client.UserId = null;
             dbWClient.WClients.Add(client);
 
@@ -44,10 +40,6 @@ namespace Zabronim.Net.Controllers {
         public ActionResult IsEmail_Available(string email) {
             var result = dbWClient.WClients.Any(c => c.Email == email) == false;
             return Json(result, JsonRequestBehavior.AllowGet);
-        }
-
-        public ActionResult G() {
-            return View();
         }
     }
 }

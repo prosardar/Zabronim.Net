@@ -139,16 +139,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Fonts.css" />
-    <Content Include="Content\Images\1.png">
+    <Content Include="Content\Images\reservedTable.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Images\2.png">
+    <Content Include="Content\Images\afterOrder.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Images\3.png">
+    <Content Include="Content\Images\shipping.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Images\4.png">
+    <Content Include="Content\Images\deposit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Images\f.jpg">
@@ -157,6 +157,10 @@
     <Content Include="Content\Images\h_bg.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\Images\icon-facebook.png" />
+    <Content Include="Content\Images\icon-linkedin.png" />
+    <Content Include="Content\Images\icon-twitter.png" />
+    <Content Include="Content\Images\icon-vk.png" />
     <Content Include="Content\Images\icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -254,7 +258,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\G.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

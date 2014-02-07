@@ -1,7 +1,3 @@
-E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\1.png
-E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\2.png
-E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\3.png
-E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\4.png
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\f.jpg
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\h_bg.png
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Debug\Content\Images\icon.png
@@ -41,3 +37,7 @@ E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\obj\Debug\Zabronim.Net.
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\obj\Debug\Zabronim.Net.Tests.pdb
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\EntityFramework.dll
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\EntityFramework.xml
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\reservedTable.png
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\afterOrder.png
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\shipping.png
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\deposit.png
