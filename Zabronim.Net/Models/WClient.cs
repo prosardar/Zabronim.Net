@@ -14,5 +14,7 @@ namespace Zabronim.Net.Models {
         [DataType(DataType.EmailAddress, ErrorMessage = "Пожалуйста проверьте адрес почты")]
         [Remote("IsEmail_Available", "Home", ErrorMessage = "Пользователь с таким email уже существует")]
         public string Email { get; set; }
+
+        public bool IsConfim { get; set; }
     }
 }

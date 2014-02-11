@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Web.Mvc;
 using Zabronim.Net.Models;
@@ -22,6 +23,7 @@ namespace Zabronim.Net.Controllers {
             }
 
             client.UserId = null;
+            client.IsConfim = false;
             dbWClient.WClients.Add(client);
 
             try {
@@ -31,10 +33,20 @@ namespace Zabronim.Net.Controllers {
                 ModelState.AddModelError("Email", e);
                 return View("Index");
             }
+            
+            var message = System.IO.File.ReadAllText(Server.MapPath("~/Content/emailContext.html"));;
 
-            EmailManager.Send(client.Email, "Команда Zabronim", "Спасибо за интерес, ваша почта добавлена в список рассылок новостей.");
+            EmailManager.Send(client.Email, "Команда Zabronim", message);
 
             return Redirect("Index");
+        }
+
+        public ActionResult GetPath() {
+            
+            var me = System.IO.File.ReadAllText(Server.MapPath("~/Content/emailContext.html"));
+            ViewBag.Name = me;
+            
+            return View();
         }
 
         public ActionResult IsEmail_Available(string email) {
