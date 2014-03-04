@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Linq;
 using System.Web.Mvc;
 using Zabronim.Net.Models;
@@ -39,14 +38,6 @@ namespace Zabronim.Net.Controllers {
             EmailManager.Send(client.Email, "Команда Zabronim", message);
 
             return Redirect("Index");
-        }
-
-        public ActionResult GetPath() {
-            
-            var me = System.IO.File.ReadAllText(Server.MapPath("~/Content/emailContext.html"));
-            ViewBag.Name = me;
-            
-            return View();
         }
 
         public ActionResult IsEmail_Available(string email) {

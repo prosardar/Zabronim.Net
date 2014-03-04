@@ -38,3 +38,7 @@ E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\Content\Images\reservedTa
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\Content\Images\afterOrder.png
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\Content\Images\shipping.png
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\Content\Images\deposit.png
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\System.Web.Helpers.dll
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\System.Web.Helpers.xml
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\ru\System.Web.Helpers.resources.dll
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\obj\Release\Zabronim.Net.csprojResolveAssemblyReference.cache
