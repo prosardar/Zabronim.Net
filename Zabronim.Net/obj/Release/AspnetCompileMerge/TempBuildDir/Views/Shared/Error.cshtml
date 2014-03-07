@@ -1,17 +1,18 @@
-﻿@{
-    Layout = null;
+﻿@model HandleErrorInfo
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Error</title>
-</head>
-<body>
-    <hgroup>
-        <h1>Error.</h1>
-        <h2>An error occurred while processing your request.</h2>
-    </hgroup>
-</body>
-</html>
+<tr>
+    <td class="root_table__middle" valign="top" align="center" height="100%">
+        <div class="max_width">
+            <div class="root_table__middle__item">
+                <h1 class="root_table__middle__item__title">Ошибка</h1>
+                Сообщение об ошибке: @Model.Exception.Message<br/>
+                Источник ошибки: @Model.Exception.Source
+
+            </div>
+        </div>
+    </td>
+</tr>
