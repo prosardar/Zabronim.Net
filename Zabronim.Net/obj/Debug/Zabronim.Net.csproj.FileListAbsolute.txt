@@ -42,3 +42,5 @@ E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\Content\Images\deposit.pn
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\System.Web.Helpers.dll
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\System.Web.Helpers.xml
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\ru\System.Web.Helpers.resources.dll
+E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\NLog.dll
+E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\NLog.xml

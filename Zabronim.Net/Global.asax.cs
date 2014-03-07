@@ -4,14 +4,16 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using NLog;
 using Zabronim.Net.Migrations;
 
 namespace Zabronim.Net {
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
-
     public class MvcApplication : HttpApplication {
+        public static readonly Logger Logger = LogManager.GetCurrentClassLogger();
+
         protected void Application_Start() {
+            Logger.Info("Application Start");
+
             new DbMigrator(new Configuration()).Update();
 
             AreaRegistration.RegisterAllAreas();
