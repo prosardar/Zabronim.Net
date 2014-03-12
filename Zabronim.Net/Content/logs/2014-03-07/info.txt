@@ -1,2 +1,0 @@
-2014-03-07 13:12:25.6635|INFO|Zabronim.Net.MvcApplication|Application Start
-2014-03-07 13:20:06.2869|INFO|Zabronim.Net.MvcApplication|Application Start
