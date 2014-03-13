@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web.Http;
 using Zabronim.Net.Models;
 using Zabronim.Net.ZaEnviroment;
+using Newtonsoft.Json;
 
 namespace Zabronim.Net.Controllers.Api {
     public class MobileClientController : ApiController {
-        public MobileClientContext mobileClientDb = new MobileClientContext();
+        public WClientContext mobileClientDb = new WClientContext();
 
         public List<MobileClient> Get() {
             return mobileClientDb.MobileClients.ToList();

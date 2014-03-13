@@ -5,3 +5,5 @@
 2014-03-13 17:12:14.7372|ERROR|Zabronim.Net.ZaEnviroment.ZLogger|Не найден мобильный клиент с текущим параметром
 2014-03-13 17:20:27.6632|ERROR|Zabronim.Net.ZaEnviroment.ZLogger|При удалении мобильного клиента произошла ошибка The type of one of the primary key values did not match the type defined in the entity. See inner exception for details.
 Имя параметра: keyValues
+2014-03-13 18:21:23.9776|ERROR|Zabronim.Net.ZaEnviroment.ZLogger|При добавлении нового мобильного клиента произошла ошибка При обновлении записей произошла ошибка. Подробные сведения см. во внутреннем исключении.
+2014-03-13 18:22:09.4833|ERROR|Zabronim.Net.ZaEnviroment.ZLogger|При добавлении нового мобильного клиента произошла ошибка При обновлении записей произошла ошибка. Подробные сведения см. во внутреннем исключении.
