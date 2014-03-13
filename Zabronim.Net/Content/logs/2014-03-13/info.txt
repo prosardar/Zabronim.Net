@@ -3,3 +3,5 @@
 2014-03-13 10:54:34.7260|INFO|Zabronim.Net.Models.ZLogger|Application Start
 2014-03-13 11:18:16.2799|INFO|Zabronim.Net.Models.ZLogger|Application Start
 2014-03-13 11:35:36.3673|INFO|Zabronim.Net.Models.ZLogger|Application Start
+2014-03-13 11:39:04.3679|INFO|Zabronim.Net.Models.ZLogger|Application Start
+2014-03-13 11:40:15.6142|INFO|Zabronim.Net.Models.ZLogger|Application Start
