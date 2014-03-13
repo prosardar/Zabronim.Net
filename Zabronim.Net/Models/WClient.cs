@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Web.Mvc;
 
 namespace Zabronim.Net.Models {
+    /// <summary>
+    /// Web Client
+    /// </summary>
     public class WClient {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int? UserId { get; set; }

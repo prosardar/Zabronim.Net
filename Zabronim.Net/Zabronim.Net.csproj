@@ -134,11 +134,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Api\MobileClientController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\MobileClient.cs" />
+    <Compile Include="Models\MobileClientContext.cs" />
     <Compile Include="ZaEnviroment\AppServiceRoute.cs" />
     <Compile Include="ZaEnviroment\EmailManager.cs" />
     <Compile Include="Models\Wcf\Contracts\ErpModule.cs" />
