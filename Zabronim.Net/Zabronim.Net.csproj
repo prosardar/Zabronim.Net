@@ -47,6 +47,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -137,7 +139,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AppServiceRoute.cs" />
     <Compile Include="Models\EmailManager.cs" />
+    <Compile Include="Models\Wcf\Contracts\ErpModule.cs" />
+    <Compile Include="Models\Wcf\Contracts\IErpModule.cs" />
     <Compile Include="Models\WClient.cs" />
     <Compile Include="Models\WClientContext.cs" />
     <Compile Include="Models\ZLogger.cs" />

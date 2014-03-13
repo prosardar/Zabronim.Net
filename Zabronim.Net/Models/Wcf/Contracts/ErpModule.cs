@@ -11,7 +11,7 @@ namespace Zabronim.Net.Models.Wcf.Contracts {
             callback = OperationContext.Current.GetCallbackChannel<IErpModuleCallback>();
         }
 
-        [PrincipalPermission(SecurityAction.Demand, Role = "Manager")]
+        [PrincipalPermission(SecurityAction.Demand, Role = "Users")]
         public string GetConnectionId(string erpClientId) {
             Console.WriteLine("Callback = {0}", callback.SetRequest("1"));
             return "1";
@@ -19,7 +19,7 @@ namespace Zabronim.Net.Models.Wcf.Contracts {
     }
 
     public class ErpModuleCallbackHandler : IErpModuleCallback {
-
+        [PrincipalPermission(SecurityAction.Demand, Role = "Users")]
         public string SetRequest(string request) {
             return "2";
         }

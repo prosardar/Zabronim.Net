@@ -37,8 +37,9 @@ namespace Zabronim.Net {
 
             // Clear out existing user information and add fresh user information
             for (int i = 0; i < emails.Length; i++) {
-                if (Membership.GetUserNameByEmail(emails[i]) != null)
+                if (Membership.GetUserNameByEmail(emails[i]) != null) {
                     Membership.DeleteUser(users[i], true);
+                }
 
                 Membership.CreateUser(users[i], passwords[i], emails[i]);
             }
@@ -48,18 +49,20 @@ namespace Zabronim.Net {
             // in the Registered Users Role and just Alice in the Super Users Role.
             for (int i = 0; i < roles.Length; i++) {
                 if (Roles.RoleExists(roles[i])) {
-                    foreach (string u in Roles.GetUsersInRole(roles[i]))
+                    foreach (string u in Roles.GetUsersInRole(roles[i])) {
                         Roles.RemoveUserFromRole(u, roles[i]);
+                    }
 
                     Roles.DeleteRole(roles[i]);
                 }
 
                 Roles.CreateRole(roles[i]);
 
-                string[] userstoadd = new string[i + 1];
+                var userstoadd = new string[i + 1];
 
-                for (int j = 0; j < userstoadd.Length; j++)
+                for (int j = 0; j < userstoadd.Length; j++) {
                     userstoadd[j] = users[j];
+                }
 
                 Roles.AddUsersToRole(userstoadd, roles[i]);
             }
