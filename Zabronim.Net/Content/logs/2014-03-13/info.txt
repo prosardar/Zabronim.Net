@@ -43,3 +43,4 @@
 2014-03-13 22:50:38.5534|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
 2014-03-13 22:52:59.5119|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
 2014-03-13 22:59:52.7822|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-03-13 23:14:03.7356|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start

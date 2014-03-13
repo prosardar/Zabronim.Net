@@ -7,6 +7,10 @@ namespace Zabronim.Net.Models {
 
         public DbSet<MobileClient> MobileClients { get; set; }
 
+        public WClientContext():base("name=ZabronimAspDb") {
+            
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
