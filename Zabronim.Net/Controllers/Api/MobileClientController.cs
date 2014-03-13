@@ -28,7 +28,7 @@ namespace Zabronim.Net.Controllers.Api {
         }
 
         [HttpGet]
-        public string PutClient(string id) {
+        public string Put(string id) {
             var client = new MobileClient {
                 Phone = id
             };
@@ -47,7 +47,7 @@ namespace Zabronim.Net.Controllers.Api {
         }
 
         [HttpGet]
-        public string DeleteClient(string id) {
+        public string Delete(string id) {
             try {
                 var client = mobileClientDb.MobileClients.Find(id);
                 if (client == null) {
