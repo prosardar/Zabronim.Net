@@ -52,7 +52,7 @@ namespace Zabronim.Net {
 
                 Roles.CreateRole(roles[i]);
 
-                var usernames = new string[i + 1];
+                var usernames = new string[users.Length];
 
                 for (int j = 0; j < usernames.Length; j++) {
                     usernames[j] = users[j];
