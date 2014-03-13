@@ -6,12 +6,13 @@ using System.Linq;
 using System.Web;
 
 namespace Zabronim.Net.Models {
+    [Serializable]
     public class MobileClient {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int? Id { get; set; }
 
         [Key]
         [DataType(DataType.PhoneNumber)]
-        public string Phone { get; set;}
+        public string Phone { get; set; }
     }
 }

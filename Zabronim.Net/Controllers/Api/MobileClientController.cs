@@ -1,39 +1,68 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
+using Zabronim.Net.Models;
+using Zabronim.Net.ZaEnviroment;
 
-namespace Zabronim.Net.Controllers
-{
-    public class MobileClientController : ApiController
-    {
-        // GET api/default1
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
+namespace Zabronim.Net.Controllers.Api {
+    public class MobileClientController : ApiController {
+        public MobileClientContext mobileClientDb = new MobileClientContext();
+
+        public List<MobileClient> Get() {
+            return mobileClientDb.MobileClients.ToList();
         }
 
-        // GET api/default1/5
-        public string Get(int id)
-        {
-            return "value";
+        public MobileClient Get(string id) {
+            var client = mobileClientDb.MobileClients.Find(id);
+            if (client == null) {
+                const string msg = "Не найден мобильный клиент с текущим параметром";
+                ZLogger.Error(msg);
+                return null;
+            }
+            return client;
         }
 
-        // POST api/default1
-        public void Post([FromBody]string value)
-        {
+        public void Post([FromBody]string value) {
         }
 
-        // PUT api/default1/5
-        public void Put(int id, [FromBody]string value)
-        {
+        [HttpGet]
+        public string PutClient(string id) {
+            var client = new MobileClient {
+                Phone = id
+            };
+
+            try {
+                mobileClientDb.MobileClients.Add(client);
+
+                mobileClientDb.SaveChanges();
+            }
+            catch (Exception e) {
+                const string msg = "При добавлении нового мобильного клиента произошла ошибка";
+                ZLogger.ErrorException(msg, e);
+                return string.Format("{0} {1}", msg, e.Message);
+            }
+            return client.Id.ToString();
         }
 
-        // DELETE api/default1/5
-        public void Delete(int id)
-        {
+        [HttpGet]
+        public string DeleteClient(string id) {
+            try {
+                var client = mobileClientDb.MobileClients.Find(id);
+                if (client == null) {
+                    return "Не найден мобильный клиент с текущим параметром";
+                }
+
+                mobileClientDb.MobileClients.Remove(client);
+
+                mobileClientDb.SaveChanges();
+            }
+            catch (Exception e) {
+                const string msg = "При удалении мобильного клиента произошла ошибка";
+                ZLogger.ErrorException(msg, e);
+                return string.Format("{0} {1}", msg, e.Message);
+            }
+            return "OK";
         }
     }
 }
