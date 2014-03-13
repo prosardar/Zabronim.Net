@@ -13,15 +13,8 @@ namespace Zabronim.Net.Models.Wcf.Contracts {
 
         [PrincipalPermission(SecurityAction.Demand, Role = "Users")]
         public string GetConnectionId(string erpClientId) {
-            Console.WriteLine("Callback = {0}", callback.SetRequest("1"));
+            ZLogger.Info("Callback = {0}", callback.SetRequest("1"));
             return "1";
-        }
-    }
-
-    public class ErpModuleCallbackHandler : IErpModuleCallback {
-        [PrincipalPermission(SecurityAction.Demand, Role = "Users")]
-        public string SetRequest(string request) {
-            return "2";
         }
     }
 }

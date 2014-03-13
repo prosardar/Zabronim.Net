@@ -26,7 +26,6 @@ E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\System.Web.Razor.xml
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\System.Web.WebPages.xml
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\System.Web.WebPages.Deployment.xml
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\System.Web.WebPages.Razor.xml
-E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\obj\Debug\Zabronim.Net.csprojResolveAssemblyReference.cache
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\obj\Debug\Zabronim.Net.dll
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\obj\Debug\Zabronim.Net.pdb
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\Content\Images\f.jpg
@@ -44,3 +43,4 @@ E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\System.Web.Helpers.xml
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\bin\ru\System.Web.Helpers.resources.dll
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\NLog.dll
 E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net\bin\NLog.xml
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net\obj\Debug\Zabronim.Net.csprojResolveAssemblyReference.cache
