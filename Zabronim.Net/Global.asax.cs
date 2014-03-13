@@ -28,7 +28,6 @@ namespace Zabronim.Net {
         }
 
         private void InitMembersDb() {
-            // Create some arrays for membership and role data
             string[] users = { "Sardar", "Admin" };
             string[] emails = { "prosardar@ya.ru", "admin@zabronim.ru" };
             string[] passwords = { "ecilA-123", "yeh327h2d-wd32" };
@@ -44,8 +43,8 @@ namespace Zabronim.Net {
 
             for (int i = 0; i < roles.Length; i++) {
                 if (Roles.RoleExists(roles[i])) {
-                    foreach (string u in Roles.GetUsersInRole(roles[i])) {
-                        Roles.RemoveUserFromRole(u, roles[i]);
+                    foreach (string user in Roles.GetUsersInRole(roles[i])) {
+                        Roles.RemoveUserFromRole(user, roles[i]);
                     }
 
                     Roles.DeleteRole(roles[i]);
@@ -53,13 +52,13 @@ namespace Zabronim.Net {
 
                 Roles.CreateRole(roles[i]);
 
-                var userstoadd = new string[i + 1];
+                var usernames = new string[i + 1];
 
-                for (int j = 0; j < userstoadd.Length; j++) {
-                    userstoadd[j] = users[j];
+                for (int j = 0; j < usernames.Length; j++) {
+                    usernames[j] = users[j];
                 }
 
-                Roles.AddUsersToRole(userstoadd, roles[i]);
+                Roles.AddUsersToRole(usernames, roles[i]);
             }
         }
     }
