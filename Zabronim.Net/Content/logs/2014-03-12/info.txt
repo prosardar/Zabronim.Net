@@ -1,0 +1,1 @@
+2014-03-12 17:22:37.4078|INFO|Zabronim.Net.Models.ZLogger|Application Start

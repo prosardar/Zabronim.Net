@@ -41,3 +41,5 @@ E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Image
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\afterOrder.png
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\shipping.png
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\Content\Images\deposit.png
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\NLog.dll
+E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Debug\NLog.xml
