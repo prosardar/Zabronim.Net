@@ -5,9 +5,8 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
-using NLog;
 using Zabronim.Net.Migrations;
-using Zabronim.Net.Models;
+using Zabronim.Net.ZaEnviroment;
 
 namespace Zabronim.Net {
     public class MvcApplication : HttpApplication {
@@ -30,12 +29,11 @@ namespace Zabronim.Net {
 
         private void InitMembersDb() {
             // Create some arrays for membership and role data
-            string[] users = { "Alice", "Bob", "Charlie" };
-            string[] emails = { "alice@example.org", "bob@example.org", "charlie@example.org" };
-            string[] passwords = { "ecilA-123", "treboR-456", "eilrahC-789" };
+            string[] users = { "Sardar", "Admin" };
+            string[] emails = { "prosardar@ya.ru", "admin@zabronim.ru" };
+            string[] passwords = { "ecilA-123", "yeh327h2d-wd32" };
             string[] roles = { "Super Users", "Registered Users", "Users" };
-
-            // Clear out existing user information and add fresh user information
+            
             for (int i = 0; i < emails.Length; i++) {
                 if (Membership.GetUserNameByEmail(emails[i]) != null) {
                     Membership.DeleteUser(users[i], true);
@@ -44,9 +42,6 @@ namespace Zabronim.Net {
                 Membership.CreateUser(users[i], passwords[i], emails[i]);
             }
 
-            // Clear out existing role information and add fresh role information
-            // This puts Alice, Bob and Charlie in the Users Role, Alice and Bob 
-            // in the Registered Users Role and just Alice in the Super Users Role.
             for (int i = 0; i < roles.Length; i++) {
                 if (Roles.RoleExists(roles[i])) {
                     foreach (string u in Roles.GetUsersInRole(roles[i])) {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.Permissions;
 using System.ServiceModel;
+using Zabronim.Net.ZaEnviroment;
 
 namespace Zabronim.Net.Models.Wcf.Contracts {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession, ConcurrencyMode = ConcurrencyMode.Reentrant)]

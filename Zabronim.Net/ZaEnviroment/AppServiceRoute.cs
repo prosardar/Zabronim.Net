@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel.Activation;
-using System.Web;
 using System.Web.Routing;
 
-namespace Zabronim.Net.Models {
+namespace Zabronim.Net.ZaEnviroment {
     public class AppServiceRoute : ServiceRoute {
         public AppServiceRoute(string routePrefix, ServiceHostFactoryBase serviceHostFactory, Type serviceType)
             : base(routePrefix, serviceHostFactory, serviceType) {

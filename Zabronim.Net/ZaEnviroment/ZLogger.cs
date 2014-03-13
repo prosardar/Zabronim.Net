@@ -1,6 +1,6 @@
 ﻿using NLog;
 
-namespace Zabronim.Net.Models {
+namespace Zabronim.Net.ZaEnviroment {
     public class ZLogger {
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
 

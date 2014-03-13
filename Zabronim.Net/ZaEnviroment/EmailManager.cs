@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using System.Web.Helpers;
 
-namespace Zabronim.Net.Models {
+namespace Zabronim.Net.ZaEnviroment {
     public class EmailManager {
         public static void Send(string recipientEmail, string subject, string body) {
             var mailSection = (System.Net.Configuration.SmtpSection)ConfigurationManager.GetSection("system.net/mailSettings/smtp");
