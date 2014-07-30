@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
+using System.Security.Permissions;
 using System.Web.Mvc;
+using System.Web.Security;
 using Zabronim.Net.Models;
 using Zabronim.Net.ZaEnviroment;
 
@@ -13,6 +15,12 @@ namespace Zabronim.Net.Controllers {
         }
 
         public ActionResult Index() {
+            return View();
+        }
+
+        
+        public ActionResult TestPermossion() {
+            
             return View();
         }
 

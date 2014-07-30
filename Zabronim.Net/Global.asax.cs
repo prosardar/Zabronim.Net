@@ -28,9 +28,9 @@ namespace Zabronim.Net {
         }
 
         private void InitMembersDb() {
-            string[] users = { "Sardar", "Admin" };
-            string[] emails = { "prosardar@ya.ru", "admin@zabronim.ru" };
-            string[] passwords = { "ecilA-123", "yeh327h2d-wd32" };
+            string[] users = { "Sardar" };
+            string[] emails = { "prosardar@ya.ru"};
+            string[] passwords = { "ecilA-123" };
             string[] roles = { "Super Users", "Registered Users", "Users" };
             
             for (int i = 0; i < emails.Length; i++) {

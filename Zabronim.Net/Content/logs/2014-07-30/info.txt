@@ -1,0 +1,4 @@
+2014-07-30 17:08:33.2212|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-07-30 17:08:47.4439|INFO|Zabronim.Net.ZaEnviroment.ZLogger|ErpModule constructor
+2014-07-30 17:08:47.4439|INFO|Zabronim.Net.ZaEnviroment.ZLogger|ErpModule GetConnection
+2014-07-30 17:08:47.7381|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Callback = 2w

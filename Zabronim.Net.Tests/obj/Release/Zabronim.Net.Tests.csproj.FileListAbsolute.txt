@@ -41,3 +41,5 @@ E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\bin\Release\EntityFrame
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\obj\Release\Zabronim.Net.Tests.csprojResolveAssemblyReference.cache
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\obj\Release\Zabronim.Net.Tests.dll
 E:\Zabronim\Сайт.Net\Zabronim.net\Zabronim.Net.Tests\obj\Release\Zabronim.Net.Tests.pdb
+E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Release\NLog.dll
+E:\Zabronim\Сайт.Net\Zabronim.Net\Zabronim.Net.Tests\bin\Release\NLog.xml
