@@ -3,7 +3,7 @@ using System.ServiceModel;
 using Zabronim.Net.ZaEnviroment;
 
 namespace Zabronim.Net.Models.Wcf.Contracts {
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession, ConcurrencyMode = ConcurrencyMode.Multiple)]
+    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, IncludeExceptionDetailInFaults = true)]
     public class ErpModule : IErpModule {
         readonly IErpModuleCallback callback;
 

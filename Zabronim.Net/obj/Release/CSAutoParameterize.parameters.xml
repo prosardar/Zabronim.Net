@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ZabronimAspDb-Web.config Connection String" description="ZabronimAspDb Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL5007.Smarterasp.net;Integrated Security=False;Initial Catalog=DB_9A9F0E_wclient;User Id=DB_9A9F0E_wclient_admin;Password=jYg3ju05ns72Skf;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Zabronim\\Сайт\.Net\\Zabronim\.Net\\Zabronim\.Net\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ZabronimAspDb']/@connectionString" />
+  </parameter>
+</parameters>

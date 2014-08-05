@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="prosardar-001-site2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Zabronim\\Сайт\.Net\\Zabronim\.Net\\Zabronim\.Net\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Zabronim\\Сайт\.Net\\Zabronim\.Net\\Zabronim\.Net\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ZabronimAspDb-Web.config Connection String" description="" value="Data Source=SQL5007.Smarterasp.net;Initial Catalog=DB_9A9F0E_wclient;Integrated Security=False;User ID=DB_9A9F0E_wclient_admin;Password=jYg3ju05ns72Skf" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\Zabronim\\Сайт\.Net\\Zabronim\.Net\\Zabronim\.Net\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ZabronimAspDb']/@connectionString" />
+  </parameter>
+</parameters>
