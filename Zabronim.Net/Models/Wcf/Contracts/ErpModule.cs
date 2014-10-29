@@ -1,9 +1,9 @@
-﻿using System.Security.Permissions;
-using System.ServiceModel;
+﻿using System.ServiceModel;
 using Zabronim.Net.ZaEnviroment;
 
 namespace Zabronim.Net.Models.Wcf.Contracts {
-    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, IncludeExceptionDetailInFaults = true)]
+    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, IncludeExceptionDetailInFaults = true, 
+        InstanceContextMode = InstanceContextMode.PerSession)]
     public class ErpModule : IErpModule {
         readonly IErpModuleCallback callback;
 

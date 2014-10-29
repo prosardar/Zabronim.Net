@@ -1,0 +1,12 @@
+2014-10-29 20:47:39.8911|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 20:50:28.8199|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 20:59:21.0048|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 20:59:36.8850|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 21:08:44.7796|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 21:12:19.6265|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 22:09:57.0761|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 22:33:26.6541|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 22:58:53.2941|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 22:59:11.9231|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 23:02:20.8341|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-10-29 23:45:57.7541|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start

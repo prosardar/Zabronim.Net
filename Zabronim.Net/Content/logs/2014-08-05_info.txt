@@ -1,0 +1,7 @@
+2014-08-05 21:58:30.4343|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-08-05 21:58:37.7156|INFO|Zabronim.Net.ZaEnviroment.ZLogger|ErpModule constructor
+2014-08-05 21:59:38.7613|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-08-05 22:00:08.6759|INFO|Zabronim.Net.ZaEnviroment.ZLogger|ErpModule constructor
+2014-08-05 22:02:19.0452|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start
+2014-08-05 22:02:36.6877|INFO|Zabronim.Net.ZaEnviroment.ZLogger|ErpModule constructor
+2014-08-05 22:02:57.4292|INFO|Zabronim.Net.ZaEnviroment.ZLogger|Application Start

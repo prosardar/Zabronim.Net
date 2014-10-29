@@ -2,7 +2,7 @@
 
 namespace Zabronim.Net.Models.Wcf.Contracts
 {
-    [ServiceContract(CallbackContract = typeof(IErpModuleCallback))]
+    [ServiceContract(CallbackContract = typeof(IErpModuleCallback), SessionMode = SessionMode.Required)]
     public interface IErpModule
     {
         [OperationContract]
